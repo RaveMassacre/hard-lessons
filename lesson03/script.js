@@ -7,19 +7,19 @@ const langArr = {
 
 let lang = (`ru`);
 if (lang === `ru`) {
-  console.log(langArr[lang]);
+  console.log(langArr.ru.toString(lang));
 } else if (lang === `en`) {
-  console.log(langArr[lang]);
+  console.log(langArr.en.toString(lang));
 } else {
   console.log(`Нет таких значений!`);
 }
 
 switch (lang) {
   case `ru`:
-    console.log(langArr[lang]);
+    console.log(langArr.ru.toString(lang));
     break;
   case `en`:
-    console.log(langArr[lang]);
+    console.log(langArr.en.toString(lang));
     break;
   default:
     console.log(`Нет таких значений!`);
